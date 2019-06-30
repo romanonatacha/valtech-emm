@@ -5,6 +5,10 @@ valtech email marketing challenge
 
 Email marjeting example, using MJML
 
+## Demo
+
+https://romanonatacha.github.io/valtech-emm/
+
 ## Run the Application localy
 
 Clone this repository
