@@ -1,0 +1,223 @@
+<mjml>
+    <mj-head>
+        <mj-style>
+            .column-border-top {
+                border-top: 1px solid #61616257;
+            }
+
+            .text-center {
+                text-align: center;
+            }
+
+            .hide_on_mobile {
+                    display: none !important;
+                }
+
+            @media only screen and (min-width: 480px) {
+                .hide_on_desktop {
+                    display: none !important;
+                }
+                .hide_on_mobile {
+                    display: block !important;
+                }
+                .column-border-top {
+                    border-top: none;
+                }
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body>
+        <mj-container width="600px">
+            <mj-section>
+                <mj-column>
+                    <mj-image width="100px" alt="logo sam's club" src="https://i.ibb.co/wW2v5rf/logo-sama.png"></mj-image>
+                </mj-column>
+            </mj-section>
+            <mj-section>
+                <mj-column>
+                    <mj-text align="center" font-size="16px" font-weight="bold" color="#033c7b">
+                        [Nome], lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </mj-text>
+                    <mj-text align="center" font-size="14px" line-height="20px">
+                        Aliquam sit amet metus dignissim, hendrerit ipsum maximus, rhoncus augue. Mauris pellentesque vulputate ullamcorper. Nam sit amet diam luctus, molestie dolor ut, imperdiet tellus. Aliquam rutrum egestas eleifend. Sed vel leo nec sapien cursus ornare. Etiam sit amet dui sed ipsum volutpat accumsan. Vivamus feugiat nec orci a sagittis. Etiam maximus justo ac tortor vestibulum sodales quis id lacus.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section>
+                <mj-column>
+                    <mj-image padding="0" width="600px" alt="banner sam's club vip" src="https://i.ibb.co/mCLVWZv/sams-vip.png"></mj-image>                    
+                </mj-column>
+            </mj-section>
+            <mj-section>
+                <mj-column>
+                    <mj-text align="center" padding="0" font-size="18px" text-transform="uppercase" color="#0085cf" font-weight="bold">
+                        Etiam sit ipsum volutpat accumsan:
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section border-top="1px solid #61616257" padding="0">
+                <mj-column>
+                    <mj-image align="left" padding="0" src="https://i.ibb.co/4MMBJB5/vinho.png" alt="garrafas de vinho"></mj-image>
+                </mj-column>
+                <mj-column padding="39px 0">
+                    <mj-text padding="5px 25px" font-size="24px" font-weight="bold" text-transform="uppercase">
+                        Vinho<br>
+                        Concha y Toro
+                    </mj-text>
+                    <mj-text padding="5px 25px" font-size="15px">
+                        Cabernet Sauvignon, Carmenere,<br>Merlot ou Rose<br>
+                        750ml
+                    </mj-text>
+                    <mj-text padding="5px 25px" font-weight="bold" color="#0085cf">
+                        <span style="font-size: 17px">R$ </span>
+                        <span style="font-size: 32px">26,</span>
+                        <span style="font-size: 19px">98</span>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section border-top="1px solid #61616257" padding="0">
+                <mj-column>
+                    <mj-image align="left" padding="0" src="https://i.ibb.co/1dTyhNK/vinho1.png" alt="garrafas de vinho"></mj-image>
+                </mj-column>
+                <mj-column padding="39px 0" background-color="#a5774a">
+                    <mj-text color="white" padding="5px 25px" font-size="24px" font-weight="bold" text-transform="uppercase">
+                        Vinho<br>
+                        Concha y Toro
+                    </mj-text>
+                    <mj-text color="white" padding="5px 25px" font-size="15px">
+                        Cabernet Sauvignon, Carmenere,<br>Merlot ou Rose<br>
+                        750ml
+                    </mj-text>
+                    <mj-text color="black" padding="5px 25px" font-weight="bold">
+                        <span style="font-size: 17px">R$ </span>
+                        <span style="font-size: 32px">26,</span>
+                        <span style="font-size: 19px">98</span>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section border-top="1px solid #61616257" padding="0">
+                <mj-column width="20%" padding-top="50px">
+                    <mj-image align="center" padding="0" src="https://i.ibb.co/bFcq4WG/vinho3.png" alt="garrafas de vinho"></mj-image>
+                </mj-column>
+                <mj-column width="30%" padding="39px 0">
+                    <mj-text padding="5px 25px" font-size="24px" font-weight="bold" text-transform="uppercase">
+                        Vinho<br>
+                        Concha<br>y Toro
+                    </mj-text>
+                    <mj-text padding="5px 25px" font-size="15px">
+                        Cabernet Sauvignon, Carmenere,<br>Merlot ou Rose<br>
+                        750ml
+                    </mj-text>
+                    <mj-text padding="5px 25px" font-weight="bold" color="#0085cf">
+                        <span style="font-size: 17px">R$ </span>
+                        <span style="font-size: 32px">26,</span>
+                        <span style="font-size: 19px">98</span>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="20%" padding-top="50px" css-class="column-border-top">
+                    <mj-image align="center" padding="0" src="https://i.ibb.co/bFcq4WG/vinho3.png" alt="garrafas de vinho"></mj-image>
+                </mj-column>
+                <mj-column width="30%" padding="39px 0">
+                    <mj-text padding="5px 25px" font-size="24px" font-weight="bold" text-transform="uppercase">
+                        Vinho<br>
+                        Concha<br>y Toro
+                    </mj-text>
+                    <mj-text padding="5px 25px" font-size="15px">
+                        Cabernet Sauvignon, Carmenere,<br>Merlot ou Rose<br>
+                        750ml
+                    </mj-text>
+                    <mj-text padding="5px 25px" font-weight="bold" color="#0085cf">
+                        <span style="font-size: 17px">R$ </span>
+                        <span style="font-size: 32px">26,</span>
+                        <span style="font-size: 19px">98</span>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section border-top="1px solid #61616257" padding-top="64px">
+                <mj-column>
+                    <mj-image width="80px" alt="logo sam's club" src="https://i.ibb.co/wW2v5rf/logo-sama.png"></mj-image>
+                    <mj-text font-family="serif" font-size="18px" font-weight="bold" align="center" color="#033c7b" line-height="24px">
+                        APROVEITE AO MÁXIMO<br>
+                        ESSA EXPERIÊNCIA
+                    </mj-text>                
+                </mj-column>
+            </mj-section>
+            <mj-section background-color="#e6e6e6" padding="0">
+                <mj-column width="55%">
+                    <mj-text align="center" font-weight="bold" font-size="16px" line-height="70px" padding="0">
+                        Aceitamos os cartões de crédito
+                    </mj-text>
+                </mj-column>
+                <mj-group width="45%">
+                    <mj-column>
+                        <mj-image align="right" padding="10px 0" width="50px" alt="logo sam's club" src="https://i.ibb.co/nbr98Lx/logo-visa.png"></mj-image>                    
+                    </mj-column>
+                    <mj-column>
+                        <mj-image padding="10px 0" width="50px" alt="logo sam's club" src="https://i.ibb.co/MsGPdkM/logo-mastercard.png"></mj-image>                    
+                    </mj-column>
+                    <mj-column css-class="hide_on_desktop">
+                        <mj-image align="left" padding="10px 0" width="50px" alt="logo sam's club" src="https://i.ibb.co/3M1QC60/logo-hipercard.png"></mj-image>                    
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+            <mj-section css-class="hide_on_mobile">
+                <mj-column>
+                    <mj-text font-size="11px" font-weight="bold" color="#033c7b" text-transform="uppercase" align="center">
+                        <span><a>Produtos | </a></span>
+                        <span><a>Serviços | </a></span>
+                        <span><a>Encontre um clube</a></span>
+                    </mj-text>
+                    <mj-text font-size="12px" font-weight="bold" color="#033c7b" align="center">
+                        <span><a>Atendimento: 4020-5050  |  </a></span>
+                        <span><a>www.samsclub.com.br</a></span>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section css-class="hide_on_desktop">
+                <mj-column border-right="solid 1px black">
+                    <mj-text font-size="11px" font-weight="bold" color="#033c7b" text-transform="uppercase" align="center">
+                        Produtos
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-text font-size="11px" font-weight="bold" color="#033c7b" text-transform="uppercase" align="center">
+                        Encontre um clube
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-text font-size="12px" font-weight="bold" color="#033c7b" align="center">
+                        Atendimento: 4020-5050
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-text font-size="12px" font-weight="bold" color="#033c7b" align="center">
+                        www.samsclub.com.br
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section>
+                <mj-group width="160px">>
+                    <mj-column>
+                        <mj-image href="#" padding="0" width="25px" alt="icone facebook" src="https://i.ibb.co/XY1wkXG/facebook.png"></mj-image>
+                    </mj-column>
+                    <mj-column>
+                        <mj-image href="#" padding="0" width="25px" alt="icone instagram" src="https://i.ibb.co/RH5KfCz/instagram.png"></mj-image>               
+                    </mj-column>
+                    <mj-column>
+                        <mj-image href="#" padding="0" width="25px" alt="icone twitter" src="https://i.ibb.co/CHrbsyb/twitter.png"></mj-image>               
+                    </mj-column>
+                    <mj-column>
+                        <mj-image href="#" padding="0" width="25px" alt="icone youtube" src="https://i.ibb.co/PF1kmHK/youtube.png"></mj-image>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+            <mj-section border-top="1px solid #61616257">
+                <mj-column>
+                    <mj-text align="center" font-size="10px">
+                        Proin a tortor imperdiet, efficitur lacus vitae, aliquet nisi. Sed mollis consectetur ipsum non porta. Donec ante eros, porta ut metus eget, sodales ultrices nulla. Nullam et varius nunc.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-container>
+    </mj-body>
+</mjml>
